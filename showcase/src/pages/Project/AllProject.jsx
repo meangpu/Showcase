@@ -28,6 +28,9 @@ const AllGames = () => {
 
   return (
     <section>
+      <h1>ALL PROJECT</h1>
+      <br></br>
+      <br></br>
       <div className='container all_game_card__container'>{Projects}</div>
     </section>
   );

@@ -2,12 +2,32 @@
   "projectData": [
     {
       "name": "Thai VR boxing",
-      "des": "This app is a demo of a small Thai VR boxing game.",
+      "des": "oculus vr boxing game",
       "img": "/Img/ThaiBoxing.webp",
-      "video": "/Video/thaiBoxing.mp4",
       "date": "Apr 2023 - Aug 2023",
       "isFinish": "Apr 2023 - Aug 2023",
-      "youtubeLink": "https://youtu.be/2YlxPAuAlEg"
+      "demoLink": "https://youtu.be/2YlxPAuAlEg"
+    },
+    {
+      "name": "SPOLS",
+      "des": "small math game",
+      "img": "/Img/spols.webp",
+      "demoLink": "https://meangpu.github.io/SPOLS/",
+      "date": "may-july 2022"
+    },
+    {
+      "name": "SWIM",
+      "des": "alternative version of spols.",
+      "img": "/Img/swim.webp",
+      "demoLink": "https://meangpu.github.io/SWIM/",
+      "date": "nov 2023"
+    },
+    {
+      "name": "HorseLegView",
+      "des": "HorseLeg model view",
+      "img": "/Img/horse.webp",
+      "demoLink": "https://meangpu.github.io/VR-HorseLeg-Webtest/web//",
+      "date": "Aug 2022"
     }
   ]
 }

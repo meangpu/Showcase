@@ -52,11 +52,10 @@ function GameCard(props) {
           className='game_p_des'
           dangerouslySetInnerHTML={{ __html: props.des }}
         ></p>
-        <br />
         <div className='game_card__item-cta'>
           {props.githubLink && (
             <a href={props.githubLink} className='meangpu-btn' target='_blank'>
-              Github
+              github
             </a>
           )}
           {props.demoLink && props.displayDemoBtn && (
@@ -65,7 +64,7 @@ function GameCard(props) {
               className='meangpu-btn btn-primary'
               target='_blank'
             >
-              Demo
+              demo
             </a>
           )}
           {props.youtubeLink && (

@@ -1,3 +1,7 @@
+h2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
 .all_game_gif_icon {
   font-size: 2rem;
   top: 10px;
@@ -5,13 +9,14 @@
 }
 
 .game_p_date {
-  font-size: 0.75rem;
-  margin-bottom: 0.5rem;
-  color: rgba(255, 255, 255, 0.821);
+  font-size: 0.7rem;
+  margin-bottom: 0.4rem;
+  color: rgba(255, 255, 255, 0.589);
 }
 
 .game_p_des {
   font-size: 0.85rem;
+  margin-bottom: 0.5rem;
 }
 
 .game_image_wrapper {
@@ -53,8 +58,9 @@
 
 .game_card__item-image:hover {
   filter: grayscale(0%);
-  border-radius: 4.5rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, var(--color-primary-variant) 0px 0px 0px 3px;
+  border-radius: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px,
+    var(--color-primary-variant) 0px 0px 0px 3px;
   scale: 1.02;
 }
 
@@ -73,10 +79,10 @@
 .meangpu-btn {
   display: inline-block;
   color: white;
-  padding: 0.35rem 0.6rem;
+  padding: 0.4rem 0.6rem;
   border-radius: 0.8rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  border: 1px solid rgba(255, 255, 255, 0.205);
   transition: var(--transition);
 }
 
@@ -86,24 +92,6 @@
   border-radius: 1rem;
   border-color: transparent;
 }
-
-/* .meangpu-youtube-btn {
-  display: inline-block;
-
-  color: white;
-  background: rgb(176, 50, 50);
-  padding: 0.35rem 0.6rem;
-  border-radius: 0.8rem;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.meangpu-youtube-btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
-  border-radius: 1rem;
-  border-color: transparent;
-} */
 
 .meangpu-btn-primary {
   background: var(--color-primary);

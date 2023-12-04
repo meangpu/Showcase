@@ -12,11 +12,11 @@
 
 :root {
   --color-bg: #171717;
-  --color-bg-variant: #2c2c6c;
+  --color-bg-variant: rgb(46, 43, 56);
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
-  /* --color-primary: hsl(var(--primary-hue), 100%, 50%);
-  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%); */
+  --color-primary: hsl(var(--primary-hue), 100%, 50%);
+  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
 
   --color-white: #fff;
   --color--light: rgba(255, 255, 255, 0.6);
@@ -27,10 +27,10 @@
   --transition: all 400ms ease;
   --transition-faster: all 100ms ease;
 
-  /* --primary-hue: 210; */
+  --primary-hue: 210;
   --gray-hue: 240;
-  /* --color-primary: hsl(var(--primary-hue), 100%, 50%);
-  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%); */
+  --color-primary: hsl(var(--primary-hue), 100%, 50%);
+  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
   --color-secondary: #4db5ff;
   --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
   --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
@@ -43,10 +43,9 @@
 body {
   font-family: "Poppins", sans-serif;
   color: var(--color-white);
-  /* color: var(--color-gray-200); */
   line-height: 1.7;
   overflow-x: hidden;
-  /* background: var(--color-gray-600); */
+  background-color: var(--color-bg);
 }
 
 .container {
@@ -70,6 +69,17 @@ img {
   height: auto;
   width: 100%;
   aspect-ratio: attr(width) / attr(height);
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+section {
+  margin-top: 8rem;
 }
 
 /* ============== Med Devices(ipad) ============== */
