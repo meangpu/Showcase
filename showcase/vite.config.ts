@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: "../docs",
   },
-  base: "https://github.com/meangpu/Showcase",
+  base: "/Showcase/",
 });
