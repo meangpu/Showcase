@@ -1,0 +1,43 @@
+.all_game_card__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
+  grid-auto-rows: minmax(min-content, max-content);
+  align-items: center;
+  justify-items: center;
+  gap: 1.2rem;
+}
+
+.all_game_card__container_square {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
+  grid-auto-rows: minmax(min-content, max-content);
+  align-items: center;
+  justify-items: center;
+  gap: 1.2rem;
+}
+
+/* ============== Med Devices(ipad) ============== */
+@media screen and (max-width: 1124px) {
+  .all_game_card__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+
+  .all_game_card__container_square {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+/* ============== Small Devices(phone) ============== */
+@media screen and (max-width: 664px) {
+  .all_game_card__container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    gap: 1rem;
+  }
+
+  .all_game_card__container_square {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+} ;

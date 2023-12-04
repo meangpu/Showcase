@@ -1,0 +1,13 @@
+{
+  "gameData": [
+    {
+      "name": "Thai VR boxing",
+      "des": "This app is a demo of a small Thai VR boxing game.",
+      "img": "/Img/ThaiBoxing.webp",
+      "video": "/Video/thaiBoxing.mp4",
+      "date": "Apr 2023 - Aug 2023",
+      "isFinish": "Apr 2023 - Aug 2023",
+      "youtubeLink": "https://youtu.be/2YlxPAuAlEg"
+    }
+  ]
+}
