@@ -28,6 +28,31 @@
       "img": "/Img/horse.webp",
       "demoLink": "https://meangpu.github.io/VR-HorseLeg-Webtest/web//",
       "date": "Aug 2022"
+    },
+    {
+      "name": "MedVisitHome",
+      "des": "visit patient home for medicine student",
+      "img": "/Img/med.webp",
+      "demoLink": "https://meangpu.github.io/MedEngGame/",
+      "date": "Nov 2023"
+    },
+    {
+      "name": "EngLabForFilm",
+      "des": "web version for EngLabForFilm",
+      "img": "/Img/movie.webp",
+      "demoLink": "https://meangpu.github.io/EnglabForFilm/"
+    },
+    {
+      "name": "PayAsYouDrinkUnity",
+      "des": "pay as you drink",
+      "img": "/Img/paydU.webp",
+      "demoLink": "https://meangpu.github.io/PayAsYouDrinkWeb/"
+    },
+    {
+      "name": "PayAsYouDrinkWeb",
+      "des": "pay as you drink website",
+      "img": "/Img/paydW.webp",
+      "demoLink": "https://meangpu.github.io/PayAsYouDrink/"
     }
   ]
 }

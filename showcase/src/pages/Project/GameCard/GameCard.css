@@ -17,6 +17,7 @@ h2 {
 .game_p_des {
   font-size: 0.85rem;
   margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .game_image_wrapper {
