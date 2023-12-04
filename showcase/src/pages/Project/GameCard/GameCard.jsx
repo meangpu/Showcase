@@ -58,7 +58,7 @@ function GameCard(props) {
               github
             </a>
           )}
-          {props.demoLink && props.displayDemoBtn && (
+          {/* {props.demoLink && props.displayDemoBtn && (
             <a
               href={props.demoLink}
               className='meangpu-btn btn-primary'
@@ -66,7 +66,7 @@ function GameCard(props) {
             >
               demo
             </a>
-          )}
+          )} */}
           {props.youtubeLink && (
             <a
               href={props.youtubeLink}
