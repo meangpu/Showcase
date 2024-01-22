@@ -53,6 +53,12 @@
       "des": "pay as you drink website",
       "img": "./Img/paydW.webp",
       "demoLink": "https://meangpu.github.io/PayAsYouDrink/"
+    },
+    {
+      "name": "dinoWay3",
+      "des": "small dino runner ",
+      "img": "./Img/dino.webp",
+      "demoLink": "https://meangpu.github.io/dinoway3/"
     }
   ]
 }
